@@ -6,14 +6,14 @@ import io.github.smdt.help.CompareHelper;
  * @author daijw@inspur.com
  * @version 1.0.0
  * @ClassName UnorderMaxPQ.java
- * @Description TODO
+ * @Description 乱序的优先队列
  * @createTime 2019年07月29日 23:23:00
  */
 public class UnorderMaxPQ<Key extends Comparable<Key>> {
     private Key[] pq;
     private int N;
 
-    public UnorderMaxPQ setN(int capacity) {
+    public UnorderMaxPQ (int capacity) {
         pq = (Key[]) new Comparable[capacity];
     }
 
@@ -34,7 +34,7 @@ public class UnorderMaxPQ<Key extends Comparable<Key>> {
             }
         }
         CompareHelper.exch(pq, max, N-1);
-        return pq[--n];
+        return pq[--N];
     }
 
 }

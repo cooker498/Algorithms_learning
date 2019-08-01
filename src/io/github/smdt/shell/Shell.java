@@ -6,10 +6,10 @@ import io.github.smdt.help.CompareHelper;
  * @author daijw@inspur.com
  * @version 1.0.0
  * @ClassName Shell.java
- * @Description TODO
+ * @Description 希尔
  * @createTime 2019年07月02日 10:14:00
  */
-public class Shell {
+public class  Shell{
     public static void sort(Comparable[] a) {
         int N = a.length;
 

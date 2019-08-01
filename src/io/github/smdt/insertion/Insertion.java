@@ -6,7 +6,7 @@ import io.github.smdt.help.CompareHelper;
  * @author daijw@inspur.com
  * @version 1.0.0
  * @ClassName Insertion.java
- * @Description TODO
+ * @Description 插入
  * @createTime 2019年07月02日 09:10:00
  */
 public class Insertion {

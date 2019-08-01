@@ -6,7 +6,7 @@ import io.github.smdt.help.CompareHelper;
  * @author daijw@inspur.com
  * @version 1.0.0
  * @ClassName Selection.java
- * @Description TODO
+ * @Description 选择
  * @createTime 2019年07月02日 09:05:00
  */
 public class Selection {
